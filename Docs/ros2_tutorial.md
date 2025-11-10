@@ -146,8 +146,6 @@ Eğer başarılı bir şekilde çalışıyorsa sonraki adıma geçebilirsiniz
 
 ## Kaynaklar
 - https://docs.ros.org/en/humble/Installation.html  
-- https://github.com/ros2/ros2  
-- https://index.ros.org/doc/ros2/  
 
 ---
 
