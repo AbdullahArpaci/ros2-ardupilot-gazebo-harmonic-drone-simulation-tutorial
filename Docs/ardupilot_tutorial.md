@@ -1,6 +1,6 @@
 # Ardupilot Installation Tutorial
-Bu döküman, ROS 2 + Ardupilot + Gazebo entegrasyonu için gereken **ilk kurulum adımıdır**.  
-(Not: İlk kurulum olarak ROS 2 kurulmuş olması da uyumluluk açısından sorun yaratmaz.)
+Bu döküman Ardupilot Kurulum adımlarını içermektedir.  
+
 
 ---
 

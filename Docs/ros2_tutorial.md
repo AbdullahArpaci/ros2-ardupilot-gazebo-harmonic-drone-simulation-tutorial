@@ -1,5 +1,5 @@
 # ROS 2 Humble Installation Tutorial
-Bu döküman ROS 2 + Ardupilot + Gazebo Entegrasyonu için gereken ilk kurlum adımıdır.
+Bu döküman ROS 2 Humble Kurulum adımlarını içermektedir. 
 
 ---
 
