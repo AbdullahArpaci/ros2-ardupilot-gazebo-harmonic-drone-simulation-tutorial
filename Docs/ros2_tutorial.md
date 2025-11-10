@@ -106,6 +106,7 @@ ROS 2 ortamının her terminal açılışında otomatik yüklenmesi için aşağ
 
 ```bash
 echo '. ~/ros2_humble/install/local_setup.bash' >> ~/.bashrc
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -121,12 +122,12 @@ Veya manuel olarak kendinizde .bashrc dosyasına girerek aşağıdaki dosya yolu
 
 
 ```bash
-ros2 --version
+echo $ROS_DISTRO
 ```
 Yukarıdaki satırı terminalde çalıştırdığında çıktı aşağıdaki gibi değilse kurulumda bir hata vardır.
 
 ```
-ros2 humble
+humble
 ```
 
 Ros2 iletişim testi:

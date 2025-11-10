@@ -48,7 +48,7 @@ gz sim
 
 
 ## Kaynaklar
-- https://gazebosim.org/docs/harmonic/getstarted/
+- https://gazebosim.org/docs/harmonic/ 
 ---
 
 
