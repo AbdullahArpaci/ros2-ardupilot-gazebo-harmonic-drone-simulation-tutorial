@@ -1,4 +1,4 @@
-# 🧭 Drone Simulation & Integration Tutorials
+# Drone Simulation & Integration Tutorials
 
 Bu depo, **ROS 2 Humble**, **Gazebo Harmonic**, **ArduPilot** ve **ArduPilot + Gazebo entegrasyonu** konularında adım adım kurulum ve yapılandırma rehberlerini içerir.  
 Her bir rehber, sistemin belirli bir bileşeninin kurulumu veya entegrasyonuna odaklanır.  
@@ -6,7 +6,7 @@ Tüm dökümanlar düzenli olarak güncellenmekte ve yeni bileşenlerle genişle
 
 ---
 
-## 📚 İçerik Rehberi
+## İçerik Rehberi
 
 ### 🔹 1. ROS 2 Humble Kurulumu
 ROS 2 ortamını Ubuntu 22.04 üzerinde baştan sona kurmak için gerekli adımlar.  
@@ -36,14 +36,14 @@ ArduPilot ve Gazebo Harmonic arasında bağlantı kurulumu.
 
 ---
 
-## 🧠 Ek Bilgiler
+## Ek Bilgiler
 - Tüm rehberler **Ubuntu 22.04 (Jammy Jellyfish)** için hazırlanmıştır.  
 - Her adım, **ROS 2 Humble**, **Gazebo Harmonic** ve **ArduPilot** arasındaki uyumluluk gözetilerek test edilmiştir.  
 - Rehberlerdeki komutlar bash terminali üzerinden uygulanmalıdır.
 
 ---
 
-## 🚧 Geliştirme Durumu
+## Geliştirme Durumu
 Bu proje hâlâ gelişim aşamasındadır.  
 Yakında eklenecek bölümler:
 - 🔸 Çoklu UAV (Swarm) senaryoları  
@@ -54,9 +54,3 @@ Katkıda bulunmak veya hata bildirmek isterseniz PR (Pull Request) gönderebilir
 
 ---
 
-## 👨‍💻 Yazar
-**Abdullah Arpacı**  
-Bilgisayar Mühendisliği | Robotik & Yapay Zekâ Araştırmacısı  
-📫 İletişim: [LinkedIn](https://www.linkedin.com/in/abdullaharpaci) • [GitHub](https://github.com/AbdullahArpaci)
-
----
