@@ -32,17 +32,17 @@ sudo apt update && sudo apt upgrade -y
 ### [1] Model dosyaları oluşturma
 1. gz_ws/src/ardupilot_gazebo/models dizinine gidin.
 2. iris_ardupilot klasörünü kopyalayın.
-[models klasörü](/Images/models.png)
+![models klasörü](/Images/models.png)
 3. İsterseniz masaüstüne MultiUav klasörü oluşturun veya bulunduğunuz dizinde işlemere devam edin.
 Tavsiye: Ayrı klasörde tutmak ileride düzenleme yaparken büyük kolaylık sağlar.
 4. Kopyaladığınız klasörü 3 kez yapıştırın ve isimlerini şu şekilde değiştirin(Ek klasör oluşturmadıysanız models dizininde yapın bu işlemleri):
 Drone1
 Drone2
 Drone3
-[Model dosyaları](/Images/models2.png)
+![Model dosyaları](/Images/models2.png)
 5. Her bir DroneX klasöründeki model.sdf dosyasını açın ve en üstteki <model name="..."> satırını klasör ismiyle eşleşecek şekilde güncelleyin.
-[Model isim güncelleme](/Images/models3.png)
-[Model port Ayarı](/Images/models4.png)
+![Model isim güncelleme](/Images/models3.png)
+![Model port Ayarı](/Images/models4.png)
 6. Port Çakışmasını Önlemek İçin:
     Her dron, ArduPilot ile Gazebo arasında farklı portlar üzerinden haberleşmelidir.
     Her model.sdf dosyasındaki <plugin name="ArduPilotPlugin"> bölümünü aşağıdaki gibi düzenleyin:
@@ -66,10 +66,10 @@ Her Dron için portları doğru bir şekilde ayarladığınızdan emin olun.
 
 ### [1] Dünya Dosyası oluşturma
 1. gz_ws/src/ardupilot_gazebo/worlds klasörüne gidin.
-[Worlds klasörü](/Images/world1.png)
+![Worlds klasörü](/Images/world1.png)
 2. iris_runway.sdf dosyasını kopyalayın ve eğer ek bir klasör oluşturduysanız oluşturulan klasöre oluşturulmadı ise bulunulan words dizinine dosyayı yapıştırın 
 3. Dosya ismini multi_iris_runway.sdf olarak değiştirin.
-[World dosyası isim güncelleme](/Images/worlds2.png)
+![World dosyası isim güncelleme](/Images/worlds2.png)
 4. multi_iris_runway.sdf dosyasını açın ve içeriğini aşağıdaki gibi düzenleyin:
 - Kopyalanan dünya dosyası tek bir dron içermektedir öncelikle dosyaya daha önceden oluşturmuş olduğumuz Dron modellerini ekleyin.
 
@@ -97,7 +97,7 @@ Dünya dosyamızın en alt kısmını aşağıdaki gibi düzenleyin:
 </include>
 ```
 Bu işlem dünya dosyasına modellerin eklenmesini sağlar
-[World dosyası isim güncelleme](/Images/worlds3.png)
+![World dosyası isim güncelleme](/Images/worlds3.png)
 5. Gazebo CPU tabanlı bir uygulama olmasından kaynaklı sistemi çok fazla yorabilmektedir bu durum simülasyonun doğru bir şekilde çalışmasını engellemektedir bu yüzden bazı optimizasyon ayarları yapmamız gerekir
 
 - Sistemin Physics kısmını aşağıdaki gibi güncelleyin:
@@ -153,7 +153,7 @@ Bu işlem dünya dosyasına modellerin eklenmesini sağlar
 | **solver quick + iters 60**      | Dron titreşimlerini azaltır                                                                                  |
 | **ERP 0.8**                      | Nesnelerin yere gömülmesini veya zıplamasını engeller                                                        |
 
-[World dosyası isim güncelleme](/Images/worlds4.png)
+![World dosyası isim güncelleme](/Images/worlds4.png)
 ---
 
 ### [3] Sistem Bağımlılıklarını güncelleme
@@ -200,4 +200,4 @@ Terminal 4 – Gazebo dünyayı başlatma
 ```bash
 gz sim -v4 -r multi_iris_runway.sdf
 ```
-[Örnek çıktı](/Images/multi_uav.png)
+![Örnek çıktı](/Images/multi_uav.png)
