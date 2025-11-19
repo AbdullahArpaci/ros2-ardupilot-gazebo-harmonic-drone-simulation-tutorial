@@ -2,7 +2,7 @@
 
 Bu depo, **ROS 2 Humble**, **Gazebo Harmonic**, **ArduPilot** ve **ArduPilot + Gazebo entegrasyonu** konularında adım adım kurulum ve yapılandırma rehberlerini içerir.  
 Her bir rehber, sistemin belirli bir bileşeninin kurulumu veya entegrasyonuna odaklanır.  
-Tüm dökümanlar düzenli olarak güncellenmekte ve yeni bileşenlerle genişletilmeye devam etmektedir. 🚀
+Tüm dökümanlar düzenli olarak güncellenmekte ve yeni bileşenlerle genişletilmeye devam etmektedir.
 
 ---
 
@@ -32,7 +32,14 @@ ArduPilot’un SITL (Software-In-The-Loop) modunda derlenmesi ve test edilmesi.
 ### 🔹 4. ArduPilot + Gazebo Harmonic Entegrasyonu
 ArduPilot ve Gazebo Harmonic arasında bağlantı kurulumu.  
 > **Kapsam:** ardupilot_gazebo plugin kurulumu, ortam değişkenleri, entegrasyon testi (`sim_vehicle.py + gz sim`).  
-📄 [Kurulum Dökümanı → `docs/ardupilot_gazebo_tutorial.md`](./docs/ardupilot_gazebo.md)
+📄 [Kurulum Dökümanı → `docs/ardupilot_gazebo_tutorial.md`](./Docs/ardupilot_gazebo.md)
+
+---
+
+### 🔹 5. Çoklu Dron (Swarm) Simülasyonu
+ArduPilot ve Gazebo Harmonic kullanarak 3 dronlu sürü simülasyonu oluşturma.  
+> **Kapsam:** Model çoğaltma, dünya (world) dosyası düzenleme, fizik optimizasyonları, çoklu SITL başlatma.  
+📄 [Kurulum Dökümanı → `docs/multi_drone_simulation.md`](./Docs/multi_uac_ardupilot_gazebo.md)
 
 ---
 
@@ -46,11 +53,8 @@ ArduPilot ve Gazebo Harmonic arasında bağlantı kurulumu.
 ## Geliştirme Durumu
 Bu proje hâlâ gelişim aşamasındadır.  
 Yakında eklenecek bölümler:
-- 🔸 Çoklu UAV (Swarm) senaryoları  
-- 🔸 ROS 2 – ArduPilot DDS entegrasyonu  
+- 🔸 ROS 2 – ArduPilot DDS (MicroROS) entegrasyonu  
 - 🔸 Gerçek zamanlı uçuş veri analizi  
+- 🔸 Otonom sürü algoritmaları (Collision Avoidance vb.)
 
-Katkıda bulunmak veya hata bildirmek isterseniz PR (Pull Request) gönderebilirsiniz. 🤝
-
----
-
+Katkıda bulunmak veya hata bildirmek isterseniz PR (Pull Request) gönderebilirsiniz.
