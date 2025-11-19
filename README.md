@@ -39,7 +39,7 @@ ArduPilot ve Gazebo Harmonic arasında bağlantı kurulumu.
 ### 🔹 5. Çoklu Dron (Swarm) Simülasyonu
 ArduPilot ve Gazebo Harmonic kullanarak 3 dronlu sürü simülasyonu oluşturma.  
 > **Kapsam:** Model çoğaltma, dünya (world) dosyası düzenleme, fizik optimizasyonları, çoklu SITL başlatma.  
-📄 [Kurulum Dökümanı → `docs/multi_drone_simulation.md`](./Docs/multi_uac_ardupilot_gazebo.md)
+📄 [Kurulum Dökümanı → `docs/multi_uav_simulation.md`](./Docs/multi_uav_ardupilot_gazebo.md)
 
 ---
 
