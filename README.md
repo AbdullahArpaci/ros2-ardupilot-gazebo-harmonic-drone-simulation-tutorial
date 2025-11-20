@@ -10,12 +10,12 @@ Bu projede; **SITL (Software In The Loop)** testi, **Multi-UAV (Çoklu Drone/Sü
 
 ---
 
-## 📸 Simülasyon Önizlemesi
+## Simülasyon Önizlemesi
 ![Multi-UAV Simulation Example](/Images/multi_uav.png)
 
 ---
 
-## 📚 İçerik Rehberi
+## İçerik Rehberi
 
 ### 🔹 1. ROS 2 Humble Kurulumu (Ubuntu 22.04)
 Robot İşletim Sistemi (ROS 2) ortamının eksiksiz kurulumu.
@@ -41,18 +41,18 @@ ArduPilot uçuş kontrolcüsünün simülasyon modunda (SITL) derlenmesi.
 ### 🔹 4. ArduPilot + Gazebo Harmonic Entegrasyonu (Plugin)
 ArduPilot ve Gazebo'nun `ardupilot_gazebo` eklentisi ile haberleşmesi.
 > **Kapsam:** JSON model yapılandırması, `sim_vehicle.py` parametreleri, entegrasyon testi.  
-📄 [Kurulum Dökümanı → `docs/ardupilot_gazebo_tutorial.md`](./Docs/ardupilot_gazebo.md)
+[Kurulum Dökümanı → `docs/ardupilot_gazebo_tutorial.md`](./Docs/ardupilot_gazebo.md)
 
 ---
 
 ### 🔹 5. Çoklu Dron (Swarm) Simülasyonu
 Aynı anda birden fazla İHA'nın simüle edilmesi ve sürü algoritmaları için altyapı.
 > **Kapsam:** Model çoğaltma (spawning), SDF dünya dosyası düzenleme, fizik optimizasyonları, çoklu MAVLink port yönetimi.  
-📄 [Kurulum Dökümanı → `docs/multi_uav_simulation.md`](./Docs/multi_uav_ardupilot_gazebo.md)
+[Kurulum Dökümanı → `docs/multi_uav_simulation.md`](./Docs/multi_uav_ardupilot_gazebo.md)
 
 ---
 
-## 🛠️ Teknik Detaylar ve Uyumluluk
+## Teknik Detaylar ve Uyumluluk
 * **İşletim Sistemi:** Ubuntu 22.04 LTS (Jammy Jellyfish)
 * **ROS Sürümü:** ROS 2 Humble Hawksbill
 * **Simülatör:** Gazebo Harmonic
@@ -60,7 +60,7 @@ Aynı anda birden fazla İHA'nın simüle edilmesi ve sürü algoritmaları içi
 
 ---
 
-## 🚀 Yol Haritası (Roadmap)
+## Yol Haritası (Roadmap)
 Bu proje aktif olarak geliştirilmektedir. Yakında eklenecek özellikler:
 - [ ] ROS 2 – ArduPilot DDS (MicroROS) köprüsü kurulumu
 - [ ] QGroundControl üzerinden gerçek zamanlı telemetri analizi
@@ -69,7 +69,7 @@ Bu proje aktif olarak geliştirilmektedir. Yakında eklenecek özellikler:
 
 ---
 
-## 🤝 Katkıda Bulunma
+## Katkıda Bulunma
 Hata bildirmek veya yeni bir özellik eklemek isterseniz lütfen bir **Issue** açın veya **Pull Request** gönderin.
 
 **Anahtar Kelimeler:** *ROS 2 Tutorial, Gazebo Harmonic, ArduPilot SITL, Drone Simulation, Ubuntu 22.04, İHA Simülasyon, Swarm Intelligence, Robotik Kodlama.*
