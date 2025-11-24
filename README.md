@@ -60,14 +60,6 @@ Aynı anda birden fazla İHA'nın simüle edilmesi ve sürü algoritmaları içi
 
 ---
 
-## Yol Haritası (Roadmap)
-Bu proje aktif olarak geliştirilmektedir. Yakında eklenecek özellikler:
-- [ ] ROS 2 – ArduPilot DDS (MicroROS) köprüsü kurulumu
-- [ ] QGroundControl üzerinden gerçek zamanlı telemetri analizi
-- [ ] Python ve OpenCV ile Otonom Sürü (Swarm) algoritmaları
-- [ ] Çarpışma önleme (Collision Avoidance) senaryoları
-
----
 
 ## Katkıda Bulunma
 Hata bildirmek veya yeni bir özellik eklemek isterseniz lütfen bir **Issue** açın veya **Pull Request** gönderin.
