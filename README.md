@@ -1,12 +1,14 @@
-# ROS 2 Humble, Gazebo Harmonic & ArduPilot: Drone Simülasyon ve Entegrasyon Rehberi
+# ROS2 ArduPilot Gazebo Harmonic Drone Simulation Tutorial (Ubuntu 22.04)
 
 ![ROS 2](https://img.shields.io/badge/ROS_2-Humble-blue) ![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic-orange) ![ArduPilot](https://img.shields.io/badge/ArduPilot-SITL-red) ![License](https://img.shields.io/badge/License-MIT-green)
 
+This repository provides a **step-by-step tutorial** for setting up **ROS2 Humble, ArduPilot SITL, and Gazebo Harmonic drone simulations on Ubuntu 22.04**. It is designed for developers working on **autonomous drones, robotics, and multi-UAV swarm simulations**.
+
 Bu depo, **Ubuntu 22.04** üzerinde **ROS 2 Humble**, **Gazebo Harmonic** ve **ArduPilot** kullanarak **İHA (Drone) simülasyonu** geliştirmek isteyenler için kapsamlı, adım adım kurulum ve yapılandırma rehberlerini içerir.
 
-Bu projede; **SITL (Software In The Loop)** testi, **Multi-UAV (Çoklu Drone/Sürü)** simülasyonu ve **Mavlink** haberleşmesi gibi ileri seviye konular detaylandırılmıştır. Otonom sistemler, gömülü yazılım ve robotik alanında çalışan geliştiriciler için referans niteliğindedir.
-
 > **🇬🇧 English Summary:** This repository provides step-by-step tutorials for installing and integrating **ROS 2 Humble**, **Gazebo Harmonic**, and **ArduPilot** on Ubuntu 22.04. It covers SITL setups, multi-UAV swarm simulations, and environment configurations.
+
+Bu projede; **SITL (Software In The Loop)** testi, **Multi-UAV (Çoklu Drone/Sürü)** simülasyonu ve **Mavlink** haberleşmesi gibi ileri seviye konular detaylandırılmıştır. Otonom sistemler, gömülü yazılım ve robotik alanında çalışan geliştiriciler için referans niteliğindedir.
 
 ---
 
