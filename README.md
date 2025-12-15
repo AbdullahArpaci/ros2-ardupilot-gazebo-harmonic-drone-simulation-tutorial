@@ -63,9 +63,9 @@ Aynı anda birden fazla drone ile sürü simülasyonlarının kurulması.
 
 ---
 
-### 🔹 6. ROS 2 + ArduPilot DDS Entegrasyonu
+### 🔹 6. ROS 2 + ArduPilot + Gazebo entegrasyonu
 
-MAVROS kullanılmadan, **DDS tabanlı modern ROS 2 entegrasyonu**.
+DDS tabanlı modern ROS 2 entegrasyonu.
 
 
 📄 **Doküman:**
