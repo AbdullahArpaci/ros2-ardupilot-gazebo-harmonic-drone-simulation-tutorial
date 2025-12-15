@@ -25,7 +25,7 @@ Bu doküman, **Ubuntu 22.04** üzerinde **ROS 2 Humble**, **ArduPilot (SITL)** v
 ROS 2 çalışma ortamının eksiksiz kurulumu ve yapılandırılması.
 
 📄 **Doküman:**
-[`ros2_tutorial.md`](.Docs/ros2_tutorial.md)
+[`ros2_tutorial.md`](./Docs/ros2_tutorial.md)
 
 ---
 
@@ -34,7 +34,7 @@ ROS 2 çalışma ortamının eksiksiz kurulumu ve yapılandırılması.
 Yeni nesil Gazebo simülasyon ortamının kurulumu ve doğrulanması.
 
 📄 **Doküman:**
-[`gazebo_harmonic_tutorial.md`](.Docs/gazebo_harmonic_tutorial.md)
+[`gazebo_harmonic_tutorial.md`](./Docs/gazebo_harmonic_tutorial.md)
 
 ---
 
@@ -44,7 +44,7 @@ ArduPilot uçuş kontrol yazılımının simülasyon modunda derlenmesi.
 
 
 📄 **Doküman:**
-[`ardupilot_tutorial.md`](.Docs/ardupilot_tutorial.md)
+[`ardupilot_tutorial.md`](./Docs/ardupilot_tutorial.md)
 
 ---
 
@@ -53,7 +53,7 @@ ArduPilot uçuş kontrol yazılımının simülasyon modunda derlenmesi.
 ArduPilot’un **ardupilot_gz** köprü paketleri ile Gazebo Harmonic ortamında çalıştırılması.
 
 📄 **Doküman:**
-[`ardupilot_gazebo.md`](.Docs/ardupilot_gazebo.md)
+[`ardupilot_gazebo.md`](./Docs/ardupilot_gazebo.md)
 
 ---
 
@@ -69,7 +69,7 @@ DDS tabanlı modern ROS 2 entegrasyonu.
 
 
 📄 **Doküman:**
-[`ardupilot_ros2_gazebo.md`](.Docs/ardupilot_ros2_gazebo.md)
+[`ardupilot_ros2_gazebo.md`](./Docs/ardupilot_ros2_gazebo.md)
 
 ---
 
