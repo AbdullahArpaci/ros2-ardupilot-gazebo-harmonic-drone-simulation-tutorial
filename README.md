@@ -14,7 +14,7 @@ Bu doküman, **Ubuntu 22.04** üzerinde **ROS 2 Humble**, **ArduPilot (SITL)** v
 
 ## 🎥 Simülasyon Önizlemesi
 
-![Multi-UAV Simulation Example](../Images/multi_uav.png)
+![Multi-UAV Simulation Example](/Images/multi_uav.png)
 
 ---
 
