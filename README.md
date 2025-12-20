@@ -61,6 +61,9 @@ ArduPilot’un **ardupilot_gz** köprü paketleri ile Gazebo Harmonic ortamında
 
 Aynı anda birden fazla drone ile sürü simülasyonlarının kurulması.
 
+📄 **Doküman:**
+[`ardupilot_gazebo.md`](./Docs/multi_uav_ardupilot_gazebo.md)
+
 ---
 
 ### 🔹 6. ROS 2 + ArduPilot + Gazebo entegrasyonu
