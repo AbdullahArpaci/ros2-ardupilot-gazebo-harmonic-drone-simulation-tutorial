@@ -12,6 +12,10 @@ Bu doküman, **Ubuntu 22.04** üzerinde **ROS 2 Humble**, **ArduPilot (SITL)** v
 
 ---
 
+## Disclaimer
+Bu doküman eğitim amaçlı hazırlanmıştır ve yazarın kendi deneyimlerine dayanmaktadır. Buradaki komutları ve kurulum adımlarını uygularken oluşabilecek veri kayıplarından, sistem hatalarından veya donanım hasarlarından kullanıcı sorumludur. Kurulum yapmadan önce önemli verilerinizi yedeklemeniz önerilir
+
+---
 ## 🎥 Simülasyon Önizlemesi
 
 ![Multi-UAV Simulation Example](/Images/multi_uav.png)
