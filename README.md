@@ -111,4 +111,4 @@ Katkılar memnuniyetle karşılanır.
 
 ---
 
-**Anahtar Kelimeler:** ROS 2 Tutorial, Gazebo Harmonic, ArduPilot SITL, Drone Simulation, Ubuntu 22.04, UAV Simulation, Multi-UAV, Swarm Robotics
+**Anahtar Kelimeler:** ROS 2 Humble, ArduPilot SITL, Gazebo Harmonic, Gazebo Sim (gz-sim), ardupilot_gz, MAVLink, Micro XRCE-DDS, Multi-UAV, Swarm, Ubuntu 22.04
